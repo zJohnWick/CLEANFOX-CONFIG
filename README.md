@@ -36,5 +36,5 @@
 * Many thanks to the [Betterfox](https://github.com/yokoffing/Betterfox) team for the base config.
 
 <div align='center'>
-  <a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=8&id=48824&s=3' border='0' alt='Free Website Counter'></a><br/>
+  <a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=48832&s=3' border='0' alt='Free Website Counter'></a><br/>
 since 05 Feb 2024</div>
