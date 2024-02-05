@@ -5,8 +5,6 @@
 # Cleanfox
 [about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox) tweaks to enhance [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). 
 
-:new: Now with [ESR support](https://github.com/yokoffing/Betterfox/tree/esr115#betterfox-esr).
-
 ## Getting started
 *If you don't have firefox already: [Get Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)*
 
