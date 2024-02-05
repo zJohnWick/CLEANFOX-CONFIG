@@ -9,12 +9,10 @@
 *If you don't have firefox already: [Get Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)*
 
 1) Create a [backup profile](https://github.com/yokoffing/Betterfox/wiki/Backup).
-2) Download the user.js file [here](https://raw.githubusercontent.com/yokoffing/Betterfox/main/user.js) (Right click > `Save Link As…`).
-3) Review [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and make any necessary changes.
-   * See also [Optional Hardening](https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening) for other recommendations.
-4) Open Firefox. In the URL bar, type `about:profiles` and press **Enter**.
-5) For the profile you want to use (or use default), click **Open Folder** in the **Root Directory** section.
-6) Move the `user.js` file into the folder.
+2) Download the user.js file [here](https://github.com/zJohnWick/Cleanfox-Config/raw/main/user.js) (Right click > `Save Link As…`).
+3) Open Firefox. In the URL bar, type `about:profiles` and press **Enter**.
+4) For the profile you want to use (or use default), click **Open Folder** in the **Root Directory** section.
+5) Move the `user.js` file into the folder.
 
 ## Difference with the Betterfox Config.
 1) -
