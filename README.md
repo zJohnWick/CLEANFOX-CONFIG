@@ -10,8 +10,8 @@ user.js for clean, fast, private Firefox.
 4) Move the `user.js` file into the folder.
 5) Done.
 
-## Difference with the Betterfox Config.
-* Changed/Added a few things in Betterfox.
+## Difference with Betterfox Config.
+* Changed a few things in Betterfox.
 
 | Fox Type | Line # | Description | Status |
 | :---: | :---: | :---: | :---: |
@@ -19,7 +19,7 @@ user.js for clean, fast, private Firefox.
 | `Peskyfox.js` | 330, 336 | Always ask where to download | Off |
 | `Securefox.js` | 181 | Battery status tracking | Off |
 
-* Additional things added according to personal preference.
+* Following things added based on personal preference.
 
 | Code | Description |
 | :---: | --- |
