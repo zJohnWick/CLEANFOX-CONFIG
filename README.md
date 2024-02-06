@@ -34,7 +34,6 @@ user.js for clean, fast, private Firefox.
 2) [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) - Additional features for YouTube
 3) [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) - Automatically learns to block invisible trackers
 4) [Sessionic](https://addons.mozilla.org/en-US/firefox/addon/sessionic/) - Save, manage and restore sessions
-5) 
 
 ## Additional Readings
 1) [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide)
