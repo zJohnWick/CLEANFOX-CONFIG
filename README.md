@@ -18,7 +18,7 @@ Method for clean, fast, private Firefox.
 * Changed/Added a few things.
 
 | Fox Type | Line # | Description | Status |
-| --- | :---: | --- | --- |
+| :---: | :---: | :---: | :---: |
 | `Peskyfox.js` | 274 | Pinned Shortcuts on New Tab | Turned On |
 | `Peskyfox.js` | 330, 336 | Always ask where to download | Turned Off |
 | `Securefox.js` | 181 | Battery status tracking | Turned Off |
