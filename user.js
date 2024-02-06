@@ -245,3 +245,8 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("ui.key.menuAccessKeyFocuses", false);
+
+
+/****************************************************************************
+ * END                                                                     *
+****************************************************************************/
