@@ -18,12 +18,16 @@ Method for clean, fast, private Firefox.
 * Removed a few things you can easily turn on/off in Firefox preferences.
 
 | Fox Type | Line # | Description | Status |
-| --- | --- | --- | --- |
+| --- | :---: | --- | --- |
 | `Peskyfox.js` | 274 | Pinned Shortcuts on New Tab | Turned On |
 | `Peskyfox.js` | 330, 336 | Always ask where to download | Turned Off |
 
 * Additional things added according to personal preference.
-  - [Instantly]
+
+| Code | Description |
+| --- | --- |
+| `browser.urlbar.speculativeConnect.enabled` | Disable URL bar, making speculative connections |
+| `ui.key.menuAccessKeyFocuses` | Disable menu popping up when press ALT key |
 
 ## Recommended Addons
 1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://github.com/yokoffing/filterlists#guidelines)
