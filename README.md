@@ -36,7 +36,7 @@ user.js for clean, fast, private Firefox.
 4) [Sessionic](https://addons.mozilla.org/en-US/firefox/addon/sessionic/) - Save, manage and restore sessions
 
 ## Additional Readings
-1) [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide)
+* [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide)
 
 ## Credit
 * Many thanks to the [Betterfox](https://github.com/yokoffing/Betterfox) team for the base config.
