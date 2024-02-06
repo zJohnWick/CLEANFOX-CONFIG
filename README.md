@@ -31,7 +31,7 @@ user.js for clean, fast, private Firefox.
 
 ## Note
 > [!IMPORTANT]
-> There are a few additional things available at the bottom of the user.js file. Enable them if you need.
+> There are a few extra things available at the bottom of the user.js file. Enable them if you need.
 
 ## Recommended Addons
 1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://github.com/yokoffing/filterlists#guidelines)
