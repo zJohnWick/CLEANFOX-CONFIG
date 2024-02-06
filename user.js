@@ -7,8 +7,6 @@
  * To make lasting changes to preferences, you will have to edit the user.js.
  */
 
-// You can find what I disabled in Betterfox: [#$]
-
 /*****************************************************************************
  * Cleanfox                                                                  *
  * "zJohnWick"                                                               *
@@ -218,15 +216,15 @@ user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
 
-/** NEW TAB PAGE ***/
+/** NEW TAB PAGE ***/ // Disabled
 // user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); [#$]
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 
 /** POCKET ***/
 user_pref("extensions.pocket.enabled", false);
 
-/** DOWNLOADS ***/ 
-// user_pref("browser.download.useDownloadDir", false); [#$]
+/** DOWNLOADS ***/ // Disabled
+// user_pref("browser.download.useDownloadDir", false); 
 // user_pref("browser.download.always_ask_before_handling_new_types", true);
 // user_pref("browser.download.manager.addToRecentDocs", false);
 
@@ -243,8 +241,25 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
  * SECTION: CLEANFOX                                                       *
 ****************************************************************************/
 
+// From Betterfox------------------
+user_pref("dom.battery.enabled", false);
+
+// Personal Preferences------------
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("ui.key.menuAccessKeyFocuses", false);
+
+// Try Yourself-------------------
+// PREF: disable all DRM content
+// user_pref("media.eme.enabled", false);
+
+// PREF: disable Firefox Sync
+// user_pref("identity.fxaccounts.enabled", false);
+
+// PREF: disable using the OS's geolocation service
+// user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
+// user_pref("geo.provider.use_corelocation", false); // [MAC]
+// user_pref("geo.provider.use_gpsd", false); // [LINUX] broken on Linux?
+// user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
 
 
 /****************************************************************************
