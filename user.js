@@ -7,11 +7,13 @@
  * To make lasting changes to preferences, you will have to edit the user.js.
  */
 
-/****************************************************************************
- * Betterfox                                                                *
- * "Ad meliora"                                                             *
- * version: 119                                                             *
- * url: https://github.com/yokoffing/Betterfox                              *
+// You can find what I disabled in Betterfox: [#$]
+
+/*****************************************************************************
+ * Cleanfox                                                                  *
+ * "zJohnWick"                                                               *
+ * version: 1.00                                                             *
+ * url: https://github.com/zJohnWick/Cleanfox-Config                         *
 ****************************************************************************/
 
 /****************************************************************************
@@ -217,16 +219,16 @@ user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
 
 /** NEW TAB PAGE ***/
-user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+// user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); [#$]
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 
 /** POCKET ***/
 user_pref("extensions.pocket.enabled", false);
 
-/** DOWNLOADS ***/
-user_pref("browser.download.useDownloadDir", false);
-user_pref("browser.download.always_ask_before_handling_new_types", true);
-user_pref("browser.download.manager.addToRecentDocs", false);
+/** DOWNLOADS ***/ 
+// user_pref("browser.download.useDownloadDir", false); [#$]
+// user_pref("browser.download.always_ask_before_handling_new_types", true);
+// user_pref("browser.download.manager.addToRecentDocs", false);
 
 /** PDF ***/
 user_pref("browser.download.open_pdf_attachments_inline", true);
@@ -238,18 +240,8 @@ user_pref("findbar.highlightAll", true);
 user_pref("layout.word_select.eat_space_to_next_word", false);
 
 /****************************************************************************
- * START: MY OVERRIDES                                                      *
+ * SECTION: CLEANFOX                                                       *
 ****************************************************************************/
-// visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
-// visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
-// Enter your personal overrides below this line:
 
-/****************************************************************************
- * SECTION: SMOOTHFOX                                                       *
-****************************************************************************/
-// visit https://github.com/yokoffing/Betterfox/blob/main/Smoothfox.js
-// Enter your scrolling overrides below this line:
-
-/****************************************************************************
- * END: BETTERFOX                                                           *
-****************************************************************************/
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("ui.key.menuAccessKeyFocuses", false);
