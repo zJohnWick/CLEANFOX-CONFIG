@@ -29,6 +29,10 @@ user.js for clean, fast, private Firefox.
 | `browser.urlbar.speculativeConnect.enabled` | Disable URL bar, making speculative connections |
 | `ui.key.menuAccessKeyFocuses` | Disable menu popping up when press ALT key |
 
+## Note
+> [!IMPORTANT]
+> There are a few additional things available at the bottom of the user.js file. Enable them if you need.
+
 ## Recommended Addons
 1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://github.com/yokoffing/filterlists#guidelines)
 2) [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) - Additional features for YouTube
