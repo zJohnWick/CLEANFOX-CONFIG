@@ -15,7 +15,7 @@ Method for clean, fast, private Firefox.
 5) Done.
 
 ## Difference with the Betterfox Config.
-* Changed/Added a few things.
+* Changed/Added a few things in Betterfox.
 
 | Fox Type | Line # | Description | Status |
 | :---: | :---: | :---: | :---: |
