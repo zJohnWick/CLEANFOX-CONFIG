@@ -15,8 +15,15 @@ Method for clean, fast, private Firefox.
 5) Done.
 
 ## Difference with the Betterfox Config.
-1) Removed a few things you can easily turn on/off in Firefox preferences.
-2) Additional things added according to personal preference.
+* Removed a few things you can easily turn on/off in Firefox preferences.
+
+| Fox Type | Line # | Description | Status |
+| --- | --- | --- | --- |
+| `Peskyfox.js` | 274 | Pinned Shortcuts on New Tab | Turned On |
+| `Peskyfox.js` | 330, 336 | Always ask where to download | Turned Off |
+
+* Additional things added according to personal preference.
+  - [Instantly]
 
 ## Recommended Addons
 1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://github.com/yokoffing/filterlists#guidelines)
