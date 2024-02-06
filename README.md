@@ -25,7 +25,7 @@ Method for clean, fast, private Firefox.
 * Additional things added according to personal preference.
 
 | Code | Description |
-| --- | --- |
+| :---: | --- |
 | `browser.urlbar.speculativeConnect.enabled` | Disable URL bar, making speculative connections |
 | `ui.key.menuAccessKeyFocuses` | Disable menu popping up when press ALT key |
 
