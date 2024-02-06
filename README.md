@@ -8,22 +8,20 @@ Method for clean, fast, private Firefox.
 ## Getting started
 *If you don't have firefox already: [Get Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)*
 
-1) Create a [backup profile](https://github.com/yokoffing/Betterfox/wiki/Backup).
-2) Download the user.js file [here](https://github.com/zJohnWick/Cleanfox-Config/raw/main/user.js) (Right click > `Save Link As…`).
-3) Open Firefox. In the URL bar, type `about:profiles` and press **Enter**.
-4) For the profile you want to use (or use default), click **Open Folder** in the **Root Directory** section.
-5) Move the `user.js` file into the folder.
+1) Download the user.js file [here](https://github.com/zJohnWick/Cleanfox-Config/raw/main/user.js) (Right click > `Save Link As…`).
+2) Open Firefox. In the URL bar, type `about:profiles` and press **Enter**.
+3) For the profile you want to use (or use default), click **Open Folder** in the **Root Directory** section.
+4) Move the `user.js` file into the folder.
+5) Done.
 
 ## Difference with the Betterfox Config.
-1) -
-2) -
-3) -
+1) Removed a few things you can easily turn on/off in Firefox preferences.
+2) Additional things added according to personal preference.
 
 ## Recommended Addons
 1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://github.com/yokoffing/filterlists#guidelines)
 2) [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) - Additional features for YouTube
 3) [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) - Automatically learns to block invisible trackers
-4) -
 
 ## Additional Readings
 1) [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide)
