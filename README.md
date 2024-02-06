@@ -1,6 +1,3 @@
-![GitHub Maintained](https://img.shields.io/badge/open%20source-yes-orange)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-
 # Cleanfox
 user.js for clean, fast, private Firefox.
 
