@@ -37,7 +37,9 @@ user.js for clean, fast, private Firefox.
 4) [Sessionic](https://addons.mozilla.org/en-US/firefox/addon/sessionic/) - Save, manage and restore sessions
 
 ## Additional Readings
+* [Check what information your device exposes to the web](https://personaldata.info/#about)
 * [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide)
+* [archlinux article about Firefox configuration](https://wiki.archlinux.org/title/Firefox/Privacy#Configuration)
 
 ## Credit
 * Many thanks to the [Betterfox](https://github.com/yokoffing/Betterfox) team for the base config.
