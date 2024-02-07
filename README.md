@@ -1,6 +1,6 @@
 # Cleanfox
 user.js for clean, fast, private Firefox.
-- Tested: Firefox, Firefox Nightly, Firefox ESR
+- Tested this user.js on Firefox, Firefox Nightly, Firefox ESR.
 
 ## Getting started
 *If you don't have firefox already: [Get Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)*
