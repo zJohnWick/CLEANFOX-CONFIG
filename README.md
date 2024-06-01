@@ -1,4 +1,4 @@
-# Cleanfox
+# CLEANFOX Firefox Config
 user.js for clean, fast, private Firefox.
 - Tested this user.js on Firefox, Firefox Nightly, Firefox ESR.
 
