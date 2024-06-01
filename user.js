@@ -7,11 +7,13 @@
  * To make lasting changes to preferences, you will have to edit the user.js.
  */
 
+// You can identify the features I've disabled in Betterfox by searching for the [#$] keyword.
+
 /*****************************************************************************
- * Cleanfox                                                                  *
+ * CLEANFOX                                                                  *
  * "zJohnWick"                                                               *
- * version: 1.00                                                             *
- * url: https://github.com/zJohnWick/Cleanfox-Config                         *
+ * version: 1.1                                                             *
+ * url: https://github.com/zJohnWick/CLEANFOX-CONFIG                       *
 ****************************************************************************/
 
 /****************************************************************************
@@ -37,25 +39,23 @@ user_pref("media.cache_resume_threshold", 3600);
 user_pref("image.mem.decode_bytes_at_a_time", 32768);
 
 /** NETWORK ***/
-user_pref("network.buffer.cache.size", 262144);
-user_pref("network.buffer.cache.count", 128);
 user_pref("network.http.max-connections", 1800);
 user_pref("network.http.max-persistent-connections-per-server", 10);
 user_pref("network.http.max-urgent-start-excessive-connections-per-host", 5);
 user_pref("network.http.pacing.requests.enabled", false);
 user_pref("network.dnsCacheExpiration", 3600);
-user_pref("network.dns.max_high_priority_threads", 8);
 user_pref("network.ssl_tokens_cache_capacity", 10240);
 
 /** SPECULATIVE LOADING ***/
 user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true);
 user_pref("network.prefetch-next", false);
 user_pref("network.predictor.enabled", false);
+user_pref("network.predictor.enable-prefetch", false);
 
 /** EXPERIMENTAL ***/
 user_pref("layout.css.grid-template-masonry-value.enabled", true);
 user_pref("dom.enable_web_task_scheduling", true);
-user_pref("layout.css.has-selector.enabled", true);
 user_pref("dom.security.sanitizer.enabled", true);
 
 /****************************************************************************
@@ -70,7 +70,6 @@ user_pref("browser.download.start_downloads_in_tmp_dir", true);
 user_pref("browser.helperApps.deleteTempFileOnExit", true);
 user_pref("browser.uitour.enabled", false);
 user_pref("privacy.globalprivacycontrol.enabled", true);
-user_pref("privacy.globalprivacycontrol.functionality.enabled", true);
 
 /** OCSP & CERTS / HPKP ***/
 user_pref("security.OCSP.enabled", 0);
@@ -102,17 +101,13 @@ user_pref("network.IDN_show_punycode", true);
 
 /** HTTPS-FIRST POLICY ***/
 user_pref("dom.security.https_first", true);
+user_pref("dom.security.https_first_schemeless", true);
 
 /** PASSWORDS ***/
-user_pref("signon.rememberSignons", false);
 user_pref("signon.formlessCapture.enabled", false);
 user_pref("signon.privateBrowsingCapture.enabled", false);
 user_pref("network.auth.subresource-http-auth-allow", 1);
 user_pref("editor.truncate_user_pastes", false);
-
-/** ADDRESS + CREDIT CARD MANAGER ***/
-user_pref("extensions.formautofill.addresses.enabled", false);
-user_pref("extensions.formautofill.creditCards.enabled", false);
 
 /** MIXED CONTENT + CROSS-SITE ***/
 user_pref("security.mixed_content.block_display_content", true);
@@ -156,7 +151,6 @@ user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
 user_pref("toolkit.telemetry.coverage.opt-out", true);
 user_pref("toolkit.coverage.opt-out", true);
 user_pref("toolkit.coverage.endpoint.base", "");
-user_pref("browser.ping-centre.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 
@@ -203,7 +197,6 @@ user_pref("browser.privateWindowSeparation.enabled", false); // WINDOWS
 /** COOKIE BANNER HANDLING ***/
 user_pref("cookiebanners.service.mode", 1);
 user_pref("cookiebanners.service.mode.privateBrowsing", 1);
-user_pref("cookiebanners.service.enableGlobalRules", true);
 
 /** FULLSCREEN NOTICE ***/
 user_pref("full-screen-api.transition-duration.enter", "0 0");
@@ -216,17 +209,16 @@ user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
 
-/** NEW TAB PAGE ***/ // Disabled
+/** NEW TAB PAGE ***/
 // user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); [#$]
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 
 /** POCKET ***/
 user_pref("extensions.pocket.enabled", false);
 
-/** DOWNLOADS ***/ // Disabled
-// user_pref("browser.download.useDownloadDir", false); 
-// user_pref("browser.download.always_ask_before_handling_new_types", true);
-// user_pref("browser.download.manager.addToRecentDocs", false);
+/** DOWNLOADS ***/
+// user_pref("browser.download.always_ask_before_handling_new_types", true); [#$]
+// user_pref("browser.download.manager.addToRecentDocs", false); [#$]
 
 /** PDF ***/
 user_pref("browser.download.open_pdf_attachments_inline", true);
@@ -241,27 +233,30 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
  * SECTION: CLEANFOX                                                       *
 ****************************************************************************/
 
-// From Betterfox------------------
+// From Betterfox-----------------------
 user_pref("dom.battery.enabled", false);
 
-// Personal Preferences------------
+// Personal Preferences-----------------------
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("ui.key.menuAccessKeyFocuses", false);
 
-// Try Yourself-------------------
+// Try Yourself-----------------------
 // PREF: disable all DRM content
-// user_pref("media.eme.enabled", false);
+user_pref("media.eme.enabled", false);
 
 // PREF: disable Firefox Sync
 // user_pref("identity.fxaccounts.enabled", false);
+// user_pref("dom.push.enabled", false);
+// user_pref("dom.push.connection.enabled", false);
+// user_pref("browser.tabs.firefox-view", false);
 
 // PREF: disable using the OS's geolocation service
-// user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
-// user_pref("geo.provider.use_corelocation", false); // [MAC]
-// user_pref("geo.provider.use_gpsd", false); // [LINUX] broken on Linux?
-// user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
+user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
+//user_pref("geo.provider.use_corelocation", false); // [MAC]
+//user_pref("geo.provider.use_gpsd", false); // [LINUX] broken on Linux?
+//user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
 
 
 /****************************************************************************
- * END                                                                     *
+ * END CLEANFOX *
 ****************************************************************************/
