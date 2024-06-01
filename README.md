@@ -18,7 +18,7 @@ user.js for clean, fast, private Firefox.
 | :---: | :---: | :---: | :---: |
 | `Peskyfox.js` | 274 | Pinned Shortcuts on New Tab | On |
 | `Peskyfox.js` | 330, 336 | Always ask where to download | Off |
-| `Securefox.js` | 181 | Battery status tracking | Off |
+| `Securefox.js` | 192 | Battery status tracking | Off |
 
 * Following things added based on personal preference.
 
