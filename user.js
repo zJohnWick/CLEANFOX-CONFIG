@@ -243,7 +243,7 @@ user_pref("ui.key.menuAccessKeyFocuses", false);
 
 // Try Yourself-----------------------
 // PREF: disable all DRM content
-user_pref("media.eme.enabled", false);
+// user_pref("media.eme.enabled", false);
 
 // PREF: disable Firefox Sync
 // user_pref("identity.fxaccounts.enabled", false);
@@ -252,10 +252,10 @@ user_pref("media.eme.enabled", false);
 // user_pref("browser.tabs.firefox-view", false);
 
 // PREF: disable using the OS's geolocation service
-user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
-//user_pref("geo.provider.use_corelocation", false); // [MAC]
-//user_pref("geo.provider.use_gpsd", false); // [LINUX] broken on Linux?
-//user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
+// user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
+// user_pref("geo.provider.use_corelocation", false); // [MAC]
+// user_pref("geo.provider.use_gpsd", false); // [LINUX] broken on Linux?
+// user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
 
 
 /****************************************************************************
