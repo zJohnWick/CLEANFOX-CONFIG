@@ -17,7 +17,6 @@ user.js for clean, fast, private Firefox.
 | Fox Type | Line # | Description | Status |
 | :---: | :---: | :---: | :---: |
 | `Peskyfox.js` | 274 | Pinned Shortcuts on New Tab | On |
-| `Peskyfox.js` | 330, 336 | Always ask where to download | Off |
 | `Securefox.js` | 192 | Battery status tracking | Off |
 
 * Following things added based on personal preference.
@@ -26,16 +25,19 @@ user.js for clean, fast, private Firefox.
 | :---: | --- |
 | `browser.urlbar.speculativeConnect.enabled` | Disable URL bar, making speculative connections |
 | `ui.key.menuAccessKeyFocuses` | Disable menu popping up when press ALT key |
+| `browser.tabs.warnOnClose` | Ask confirmation when closing a window with multiple tabs |
+| `browser.urlbar.openViewOnFocus` | Disable address bar popping out |
 
 ## Note
 > [!IMPORTANT]
 > There are a few extra things available at the bottom of the user.js file. Enable them if you need.
 
 ## Recommended Addons
-1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://github.com/yokoffing/filterlists#guidelines)
+1) [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) - Adblocker | [Recommended filters](https://t.me/jCloud1/470)
 2) [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) - Additional features for YouTube
 3) [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) - Automatically learns to block invisible trackers
 4) [Sessionic](https://addons.mozilla.org/en-US/firefox/addon/sessionic/) - Save, manage and restore sessions
+4) [Duplicate Tab Shortcut](https://addons.mozilla.org/en-US/firefox/addon/duplicate-tab-shortcut/) - Press Alt+Shift+D to duplicate the current tab
 
 ## Additional Readings
 * [Check what information your device exposes to the web](https://personaldata.info/#about)
