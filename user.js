@@ -12,7 +12,7 @@
 /*****************************************************************************
  * CLEANFOX                                                                  *
  * "zJohnWick"                                                               *
- * version: 1.2                                                             *
+ * version: 1.4                                                             *
  * url: https://github.com/zJohnWick/CLEANFOX-CONFIG                       *
 ****************************************************************************/
 
@@ -54,9 +54,7 @@ user_pref("network.predictor.enabled", false);
 user_pref("network.predictor.enable-prefetch", false);
 
 /** EXPERIMENTAL ***/
-user_pref("layout.css.grid-template-masonry-value.enabled", true);
 user_pref("dom.enable_web_task_scheduling", true);
-user_pref("dom.security.sanitizer.enabled", true);
 
 /****************************************************************************
  * SECTION: SECUREFOX                                                       *
@@ -90,6 +88,7 @@ user_pref("privacy.history.custom", true);
 
 /** SEARCH / URL BAR ***/
 user_pref("browser.urlbar.trimHttps", true);
+user_pref("browser.urlbar.untrimOnUserInteraction.featureGate", true);
 user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 user_pref("browser.search.suggest.enabled", false);
@@ -104,7 +103,6 @@ user_pref("network.IDN_show_punycode", true);
 
 /** HTTPS-FIRST POLICY ***/
 user_pref("dom.security.https_first", true);
-user_pref("dom.security.https_first_schemeless", true);
 
 /** PASSWORDS ***/
 user_pref("signon.formlessCapture.enabled", false);
@@ -115,17 +113,15 @@ user_pref("editor.truncate_user_pastes", false);
 /** MIXED CONTENT + CROSS-SITE ***/
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("pdfjs.enableScripting", false);
-user_pref("extensions.postDownloadThirdPartyPrompt", false);
+
+/** EXTENSIONS ***/
+user_pref("extensions.enabledScopes", 5);
 
 /** HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 
 /** CONTAINERS ***/
 user_pref("privacy.userContext.ui.enabled", true);
-
-/** WEBRTC ***/
-user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
-user_pref("media.peerconnection.ice.default_address_only", true);
 
 /** SAFE BROWSING ***/
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
@@ -168,7 +164,6 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("captivedetect.canonicalURL", "");
 user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.connectivity-service.enabled", false);
-user_pref("dom.private-attribution.submission.enabled", false);
 
 /****************************************************************************
  * SECTION: PESKYFOX                                                        *
@@ -182,9 +177,10 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.preferences.moreFromMozilla", false);
-user_pref("browser.tabs.tabmanager.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.aboutwelcome.enabled", false);
+user_pref("browser.tabs.tabmanager.enabled", false);
+user_pref("browser.profiles.enabled", true);
 
 /** THEME ADJUSTMENTS ***/
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
@@ -194,6 +190,7 @@ user_pref("browser.display.focus_ring_style", 0);
 user_pref("browser.display.focus_ring_width", 0);
 user_pref("layout.css.prefers-color-scheme.content-override", 2);
 user_pref("browser.privateWindowSeparation.enabled", false); // WINDOWS
+user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true);
 
 /** COOKIE BANNER HANDLING ***/
 user_pref("cookiebanners.service.mode", 1);
@@ -209,16 +206,18 @@ user_pref("full-screen-api.warning.timeout", 0);
 user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
+user_pref("dom.text_fragments.enabled", true);
 
 /** NEW TAB PAGE ***/
 // user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); [#$]
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 
 /** POCKET ***/
 user_pref("extensions.pocket.enabled", false);
 
 /** DOWNLOADS ***/
-// user_pref("browser.download.always_ask_before_handling_new_types", true); [#$]
 // user_pref("browser.download.manager.addToRecentDocs", false); [#$]
 
 /** PDF ***/
@@ -240,6 +239,15 @@ user_pref("dom.battery.enabled", false);
 // Personal Preferences-----------------------
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("ui.key.menuAccessKeyFocuses", false);
+
+// Ask for confirmation when closing a window with multiple tabs
+user_pref("browser.tabs.warnOnClose", true);
+
+// Disable address bar popping out
+user_pref("browser.urlbar.openViewOnFocus", false);
+
+// Disable tab previews when hovering over them
+user_pref("browser.tabs.hoverPreview.enabled", false);
 
 // Try Yourself-----------------------
 // PREF: disable all DRM content
